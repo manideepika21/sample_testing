@@ -7,5 +7,5 @@ def calculate_sum(numbers):
     return total
 
 # Calling the function with a string in the list
-nums = [1, 2, '3', 4]
+nums = [1, 2, 3, 4]
 print("Sum of numbers:", calculate_sum(nums))
