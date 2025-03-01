@@ -5,7 +5,7 @@ def clean_text(text):
     """
     Remove non-alphanumeric characters and convert text to lowercase.
     """
-    #return re.sub(r'[^a-zA-Z0-9\s]', '', text).lower()
+    return re.sub(r'[^a-zA-Z0-9\s]', '', text).lower()
 
 def count_word_frequency(file_path):
     """
