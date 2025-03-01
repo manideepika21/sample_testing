@@ -2,7 +2,8 @@
 def calculate_sum(numbers):
     total = 0
     for num in numbers:
-        total += num
+        if isinstance(num, int): 
+            total += num
     return total
 
 # Calling the function with a string in the list
