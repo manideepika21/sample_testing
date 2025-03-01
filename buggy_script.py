@@ -1,4 +1,10 @@
-def buggy_function(x):
-    return x + 1  # Bug: Should be x - 1
+# Buggy Python script to calculate the sum of integers in a list
+def calculate_sum(numbers):
+    total = 0
+    for num in numbers:
+        total += num
+    return total
 
-print(buggy_function(5))
+# Calling the function with a string in the list
+nums = [1, 2, '3', 4]
+print("Sum of numbers:", calculate_sum(nums))
