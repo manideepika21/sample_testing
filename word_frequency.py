@@ -12,11 +12,11 @@ def count_word_frequency(file_path):
     Count the frequency of each word in the given file.
     """
     try:
-        '''with open(file_path, 'r', encoding='utf-8') as file:
+        with open(file_path, 'r', encoding='utf-8') as file:
             text = file.read()
             cleaned_text = clean_text(text)
             words = cleaned_text.split()
-            word_counts = Counter(words)'''
+            word_counts = Counter(words)
 
         return word_counts
     except FileNotFoundError:
